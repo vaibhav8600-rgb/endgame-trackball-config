@@ -119,9 +119,9 @@
 
 		cdc: click-double-click {
 			compatible = "zmk,behavior-tap-dance";
-			display-name = "Copy/paste (click/double-click)";
+			display-name = "None/Win+C (click/double-click)";
 			#binding-cells = <0>;
-			bindings = <&bst_copy>, <&bst_paste>;
+			bindings = <&none>, <&kp LG(C)>;
 			tapping-term-ms = <250>;
 		};
 
