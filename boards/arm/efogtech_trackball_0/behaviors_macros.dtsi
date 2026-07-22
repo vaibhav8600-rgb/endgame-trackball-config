@@ -121,7 +121,7 @@
 			compatible = "zmk,behavior-tap-dance";
 			display-name = "None/Win+C (click/double-click)";
 			#binding-cells = <0>;
-			bindings = <&none>, <&kp LG(C)>;
+			bindings = <&none>, <&bst_copy>;
 			tapping-term-ms = <250>;
 		};
 
