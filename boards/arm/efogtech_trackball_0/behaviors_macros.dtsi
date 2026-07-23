@@ -122,7 +122,7 @@
 			display-name = "None/Win+C (click/double-click)";
 			#binding-cells = <0>;
 			bindings = <&none>, <&bst_copy>;
-			tapping-term-ms = <350>;
+			tapping-term-ms = <400>;
 		};
 
 		skmp {
