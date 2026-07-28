@@ -429,7 +429,6 @@ static int cmd_backup(const struct shell *sh, const size_t argc, char **argv) {
     return 0;
 }
 
-// ToDo connectivity?
 SHELL_STATIC_SUBCMD_SET_CREATE(sub_board,
     SHELL_CMD(status, NULL, "Show device status", cmd_status),
     SHELL_CMD(output, NULL, "See current output", cmd_output),
