@@ -50,10 +50,10 @@ manifest:
       revision: "e70f0af"
     - name: zmk-ble-shell
       remote: efogdev
-      revision: "5601523"
+      revision: "45724d8"
     - name: zmk-esb-endpoint
       remote: efogdev
-      revision: "aee9345"
+      revision: "01c2430"
       submodules: true
     - name: zmk-feedback-common
       remote: efogdev
