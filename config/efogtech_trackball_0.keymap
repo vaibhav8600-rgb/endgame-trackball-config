@@ -31,8 +31,8 @@
 			    &ltm LAYER_EXTRAS MB4     &ltm LAYER_DEVICE MB5
 
 			    // rotary encoders
-			    &kp scroll_up              &kp LC(TAB)
-			    &kp scroll_down              &kp LC(LS(TAB))
+			    &scroll_up              &kp LC(TAB)
+			    &scroll_down              &kp LC(LS(TAB))
 		    >;
 		};
 
@@ -45,8 +45,8 @@
 			    &bst_undo      &bst_copy
 			    &trans         &bst_paste
 
-			    &kp scroll_up   &kp LC(TAB)
-			    &kp scroll_down   &kp LC(LS(TAB))
+			    &scroll_up   &kp LC(TAB)
+			    &scroll_down   &kp LC(LS(TAB))
 	   		>;
 		};
 
@@ -59,8 +59,8 @@
 			    &af_toggle AF_TOG    &bt BT_PRV
 			    &studio_unlock       &trans
 
-			    &kp scroll_up         &kp LC(TAB)
-			    &kp scroll_down         &kp LC(LS(TAB))
+			    &scroll_up         &kp LC(TAB)
+			    &scroll_down         &kp LC(LS(TAB))
 		   	>;
 		};
 
@@ -101,8 +101,8 @@
 				&trans        &trans
 				&trans        &trans
 
-				&kp scroll_up  &kp LC(TAB)
-				&kp scroll_down  &kp LC(LS(TAB))
+				&scroll_up  &kp LC(TAB)
+				&scroll_down  &kp LC(LS(TAB))
 		    >;
 		};
 	};
